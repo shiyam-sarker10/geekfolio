@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:"Poppins", Arial, sans-serif
 }
 .menu-container {
   background-color: #181a1b;
@@ -10,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+cursor: url("http://www.rw-designer.com/cursor-view/72177.png"),auto;
 }
 .logo-img {
   width: 130px;
@@ -19,8 +21,7 @@
 }
 .item {
   margin-right: 30px;
-  padding: 10px 25px;
-  
+  padding: 5px 20px;
   border: 1px solid aqua;
   border-radius: 5px;
   font-size: 18px;
@@ -30,10 +31,47 @@
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
   box-shadow: 2px 2px 5px aqua,-1px -1px 5px aqua;
-  transition: 0.5s;
+  transition: 0.3s;
+  cursor: pointer;
   
 }
 .menu a {
   text-decoration: none;
   color: white;
+}
+.banner-container{
+    height:100vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../images/background.png"),
+    linear-gradient(45deg,#360033,#0b8793);
+    background-size: cover;
+    color: white;
+     /*#000428,#004e92*/
+}
+.banner-img{
+    width:400px;
+}
+.title{
+    font-size:55px;
+    weight:bold;
+}
+.description{
+    font-size:18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding:10px 20px;
+    border-radius: 5px;
+    border: 1px solid #8d2e88;
+    background-color: rgba(54,54,54,0);
+    color:#f886f2;
+}
+.btn:hover{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    box-shadow: 2px 2px 5px #8d2e88, -2px -2px 5px aqua;
+    transition: 0.2s;
 }
