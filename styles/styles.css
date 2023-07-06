@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family:"Poppins", Arial, sans-serif
+  font-family: "Poppins", Arial, sans-serif;
 }
 .menu-container {
   background-color: #181a1b;
@@ -11,7 +11,6 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-cursor: url("http://www.rw-designer.com/cursor-view/72177.png"),auto;
 }
 .logo-img {
   width: 130px;
@@ -30,48 +29,105 @@ cursor: url("http://www.rw-designer.com/cursor-view/72177.png"),auto;
   border: 1px solid white;
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
-  box-shadow: 2px 2px 5px aqua,-1px -1px 5px aqua;
+  box-shadow: 2px 2px 5px aqua, -1px -1px 5px aqua;
   transition: 0.3s;
   cursor: pointer;
-  
 }
 .menu a {
   text-decoration: none;
   color: white;
 }
-.banner-container{
-    height:100vh;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url("../images/background.png"),
-    linear-gradient(45deg,#360033,#0b8793);
-    background-size: cover;
-    color: white;
-     /*#000428,#004e92*/
+.banner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../images/background.png"),
+    linear-gradient(45deg, #360033, #0b8793);
+  background-size: cover;
+  color: white;
+  cursor: url("http://www.rw-designer.com/cursor-view/72177.png"), auto;
+  /*#000428,#004e92*/
 }
-.banner-img{
-    width:400px;
+.banner-img {
+  width: 400px;
 }
-.title{
-    font-size:55px;
-    weight:bold;
+.title {
+  font-size: 55px;
+  font-weight: bold;
 }
-.description{
-    font-size:18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.description {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.btn{
-    padding:10px 20px;
-    border-radius: 5px;
-    border: 1px solid #8d2e88;
-    background-color: rgba(54,54,54,0);
-    color:#f886f2;
+.banner-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #8d2e88;
+  background-color: rgba(54, 54, 54, 0);
+  color: #f886f2;
 }
-.btn:hover{
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
-    box-shadow: 2px 2px 5px #8d2e88, -2px -2px 5px aqua;
-    transition: 0.2s;
+.banner-btn:hover {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  box-shadow: 2px 2px 5px #8d2e88, -2px -2px 5px rgb(5, 231, 231);
+  transition: 0.2s;
+}
+.banner-text {
+  cursor: pointer;
+}
+.about-title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20px;
+}
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+details > summary {
+  padding: 4px;
+  width: 532px;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
+details > summary > h1 {
+  display: inline-block;
+  padding: 20px 20px;
+  font-size: 25px;
+  height: 50px;
+  color: rgb(21, 159, 250);
+  width:450px;
+
+}
+details > p {
+  background-color: white;
+  padding: 20px 30px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  font-size: 18px;
+  width: 480px;
+  font-weight: 550;
+  line-height: 30px;
+}
+.btn {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: rgb(21, 159, 250);
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+   box-shadow: 1px 1px 5px #696969;
+}
+.btn:hover {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  transition: 0.3s;
+  box-shadow: 2px 2px 5px #696969;
 }
